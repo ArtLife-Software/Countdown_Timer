@@ -1,5 +1,12 @@
 # Countdown Timer
 
+![OS](https://img.shields.io/badge/OS-Windows-blue?style=flat-square&logo=windows)
+![Language](https://img.shields.io/badge/Language-VB.NET_2012-854CC9?style=flat-square&logo=visual-studio)
+![Locale](https://img.shields.io/badge/Locale-正體中文-orange?style=flat-square)
+![License](https://img.shields.io/badge/License-GPL_v3-red?style=flat-square)
+![Latest Release](https://img.shields.io/github/v/release/ArtLife-Software/Countdown_Timer?style=flat-square&color=blue)
+![Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Countdown_Timer/total?style=flat-square&logo=github)
+
 Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒與語音倒數。常駐系統匣，開箱即用。
 
 ---
