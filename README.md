@@ -2,19 +2,11 @@
 
 ![OS](https://img.shields.io/badge/OS-Windows-blue?style=flat-square&logo=windows)
 ![Language](https://img.shields.io/badge/Language-VB.NET_2012-854CC9?style=flat-square&logo=visual-studio)
-![Locale](https://img.shields.io/badge/Locale-正體中文-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-GPL_v3-red?style=flat-square)
 ![Latest Release](https://img.shields.io/github/v/release/ArtLife-Software/Countdown_Timer?style=flat-square&color=blue)
 ![Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Countdown_Timer/total?style=flat-square&logo=github)
 
-<!-- 正體中文 (繁體) -->
-![正體中文](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%B3%20%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87-orange?style=flat-square)
-<!-- 英文 -->
-![English](https://img.shields.io/badge/Locale-%F0%9F%87%BA%F0%9F%87%B8%20English-blue?style=flat-square)
-<!-- 日文 -->
-![日本語](https://img.shields.io/badge/Locale-%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%E8%AA%9E-red?style=flat-square)
-<!-- 韓文 -->
-![한국어](https://img.shields.io/badge/Locale-%F0%9F%87%B0%F0%9F%87%B7%20%ED%95%9C%EA%B5%AD%EC%96%B4-green?style=flat-square)
+<!-- 正體中文 (繁體) -->![正體中文](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%B3%20%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87-orange?style=flat-square)<!-- 英文 -->![English](https://img.shields.io/badge/Locale-%F0%9F%87%BA%F0%9F%87%B8%20English-blue?style=flat-square)<!-- 日文 -->![日本語](https://img.shields.io/badge/Locale-%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%E8%AA%9E-red?style=flat-square)<!-- 韓文 -->![한국어](https://img.shields.io/badge/Locale-%F0%9F%87%B0%F0%9F%87%B7%20%ED%95%9C%EA%B5%AD%EC%96%B4-green?style=flat-square)
 
 Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒、語音倒數與通知視窗。常駐系統匣，開箱即用。
 
