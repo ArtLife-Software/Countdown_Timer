@@ -3,8 +3,8 @@
 ![OS](https://img.shields.io/badge/OS-Windows-blue?style=flat-square&logo=windows)
 ![Language](https://img.shields.io/badge/Language-VB.NET_2012-854CC9?style=flat-square&logo=visual-studio)
 ![License](https://img.shields.io/badge/License-GPL_v3-red?style=flat-square)
-![Latest Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Countdown_Timer/latest/total?style=flat-square&logo=github)
 ![Latest Release](https://img.shields.io/github/v/release/ArtLife-Software/Countdown_Timer?style=flat-square&color=blue)
+![Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Countdown_Timer/total?style=flat-square&logo=github)
 
 ![正體中文](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%B3%20%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87-orange?style=flat-square)
 ![English](https://img.shields.io/badge/Locale-%F0%9F%87%BA%F0%9F%87%B8%20English-blue?style=flat-square)
