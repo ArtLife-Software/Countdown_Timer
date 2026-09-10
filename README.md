@@ -1,17 +1,26 @@
 # Countdown Timer
 
 ![OS](https://img.shields.io/badge/OS-Windows-blue?style=flat-square&logo=windows)
-![Language](https://img.shields.io/badge/Language-VB.NET_2012-854CC9?style=flat-square&logo=visual-studio)
-![License](https://img.shields.io/badge/License-GPL_v3-red?style=flat-square)
+![Language](https://img.shields.io/badge/Language-VB.NET-854CC9?style=flat-square&logo=visual-studio)
+![License](https://img.shields.io/badge/License-PolyForm--NC_1.0.0-red?style=flat-square)
 ![Latest Release](https://img.shields.io/github/v/release/ArtLife-Software/Countdown_Timer?style=flat-square&color=blue)
 ![Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Countdown_Timer/total?style=flat-square&logo=github)
 
-![正體中文](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%B3%20%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87-orange?style=flat-square)
-![English](https://img.shields.io/badge/Locale-%F0%9F%87%BA%F0%9F%87%B8%20English-blue?style=flat-square)
-![日本語](https://img.shields.io/badge/Locale-%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%E8%AA%9E-red?style=flat-square)
+![正體中文](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%BC%20%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87-orange?style=flat-square)
+![简体中文](https://img.shields.io/badge/Locale-%F0%9F%87%A8%F0%9F%87%B3%20%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-red?style=flat-square)
+![日本語](https://img.shields.io/badge/Locale-%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%E8%AA%9E-d62828?style=flat-square)
 ![한국어](https://img.shields.io/badge/Locale-%F0%9F%87%B0%F0%9F%87%B7%20%ED%95%9C%EA%B5%AD%EC%96%B4-green?style=flat-square)
+![English](https://img.shields.io/badge/Locale-%F0%9F%87%BA%F0%9F%87%B8%20English-blue?style=flat-square)
+![Español](https://img.shields.io/badge/Locale-%F0%9F%87%AA%F0%9F%87%B8%20Espa%C3%B1ol-yellow?style=flat-square)
+![Français](https://img.shields.io/badge/Locale-%F0%9F%87%AB%F0%9F%87%B7%20Fran%C3%A7ais-0055A4?style=flat-square)
+![Русский](https://img.shields.io/badge/Locale-%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-0039A6?style=flat-square)
+![Português (Brasil)](https://img.shields.io/badge/Locale-%F0%9F%87%A7%F0%9F%87%B7%20Portugu%C3%AAs%20%28Brasil%29-009C3B?style=flat-square)
+![Bahasa Indonesia](https://img.shields.io/badge/Locale-%F0%9F%87%AE%F0%9F%87%A9%20Bahasa%20Indonesia-CE1126?style=flat-square)
+![Deutsch](https://img.shields.io/badge/Locale-%F0%9F%87%A9%F0%9F%87%AA%20Deutsch-lightgrey?style=flat-square)
+![Tiếng Việt](https://img.shields.io/badge/Locale-%F0%9F%87%BB%F0%9F%87%B3%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-DA251D?style=flat-square)
+![ไทย](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%AD%20%E0%B9%84%E0%B8%97%E0%B8%A2-A51931?style=flat-square)
 
-Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒、語音倒數與通知視窗。常駐系統匣，開箱即用。
+Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行、彈性提醒、語音倒數與通知視窗。常駐系統匣，開箱即用，內建 13 種語言。
 
 ---
 
@@ -25,7 +34,7 @@ Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒、語
 - 進度條與百分比
 - 已經過時間（正數計時）
 - 預計結束時間
-- 操作按鈕（開始 / 暫停 / 停止 / 重啟 / 繼續 / 初始化）
+- 操作按鈕（開始 / 暫停 / 停止 / 重啟 / 繼續 / 初始化），以圖示呈現，滑鼠停留可顯示對應文字說明
 
 支援**負計時模式**，歸零後繼續往負數倒數。
 
@@ -35,20 +44,37 @@ Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒、語
 - 相同設定檔可開啟多個實例，標題列自動加上 `#N` 編號
 - **自動排列**：一鍵將所有視窗整齊排列於螢幕工作區
 
+### 群組管理
+
+將多個計時器編成一組，依序自動接續執行，適合「連續多階段」的計時情境（例如：休息 → 泡麵 → 蒸蛋 依序倒數）。
+
+- 群組成員依設定順序執行，可用上移／下移調整順序
+- 每個成員可設定**循環次數**：同一個計時器要連續運行幾次才換下一個
+- 整個群組可設定**整輪重複次數**，或開啟無限重複
+- **支援巢狀群組**：群組成員本身也可以是另一個群組
+- 群組管理視窗即時顯示各群組狀態（運行中 / 未運行 / 已結束）與成員數
+- 可對群組整體執行開始、停止、關閉
+
 ### 系統匣
 
 程式常駐系統匣，右鍵選單提供：
 
 - 啟動視窗（LaunchForm）
+- 群組管理
 - 新增倒數計時器
 - 預設計時器設定
 - 自動排列計時器
 - 關閉所有計時器
 - 語系切換
+- 檢查更新
 - 關於
 - 結束程式
 
 雙擊系統匣圖示可快速開啟啟動視窗。
+
+### 檢查更新
+
+選單中的「檢查更新」會連線 GitHub 查詢最新 Release 版本並與目前版本比較，有新版本時會詢問是否前往下載頁面。程式啟動後也會延遲數秒自動靜默檢查一次，沒有新版本時不會打擾使用者。
 
 ### 設定
 
@@ -79,7 +105,7 @@ Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒、語
 - 通知視窗：可啟用並自訂通知文字
 
 **語音倒數（VO）**
-最後 3 / 5 / 10 秒播放語音倒數檔（`Sound_effects\Countdown_voice_XX.wav`）。
+最後 3 / 5 / 10 秒播放語音倒數檔（`Sound_effects\Countdown_voice_XX.wav`），可依目前介面語言提供不同語言的錄音（見下方〈音效檔案〉）。
 
 ### 通知視窗
 
@@ -149,18 +175,25 @@ Windows 桌面倒數計時器，支援多視窗同時運作、彈性提醒、語
 
 ```
 Countdown Timer.exe
-Config\                  # 計時器設定檔（.ini）與啟動設定
+Timers\                  # 計時器設定檔（.ini）與預設設定
+  Groups\                 # 群組設定檔（.ini）
+Settings\                # 啟動行為、最後開啟紀錄等程式層級設定
 Location\                # 視窗位置記錄（.ini）
 Sound_effects\           # 自訂音效與語音倒數檔案
+  Voice\<語系代碼>\        # 各語言專屬的語音倒數錄音（選用，找不到則自動退回上層預設檔）
 Language\                # 多語系語言檔（.ini）
 Countdown_Timer.ico      # 自訂圖示（可選）
 ```
 
+> 舊版（1.x）使用扁平的 `Config\` 資料夾存放設定檔，程式會在啟動時自動偵測並一次性搬移至新的 `Timers\` / `Settings\` 結構，不需手動處理。
+
 ## 多語系支援
 
-內建正體中文、英文、日文、韓文，優先使用設定值，若未設定，則根據系統語系自動偵測預設語言。可在系統匣選單的語系子選單中切換，重新啟動後生效。
+內建 13 種語言：正體中文、简体中文、日本語、한국어、English、Español、Français、Русский、Português (Brasil)、Bahasa Indonesia、Deutsch、Tiếng Việt、ไทย。
 
-語言檔位於 `Language\` 目錄，支援自訂語言檔擴充。
+優先使用設定值，若未設定，則根據系統語系自動偵測預設語言。可在系統匣選單的語系子選單中切換，重新啟動後生效。
+
+語言檔位於 `Language\` 目錄，每個語言一個 `.ini` 檔，支援自訂語言檔擴充——新增一個對應語系代碼的 `.ini` 檔即可自動出現在語系選單中，不需修改程式碼。
 
 ## 音效檔案
 
@@ -176,6 +209,18 @@ Countdown_Timer.ico      # 自訂圖示（可選）
 | `Countdown_voice_10.wav` | 語音倒數 10 秒版 |
 
 未放置檔案時，自動退回使用 Windows 內建通知音效。
+
+### 語音倒數的多語系錄音（選用）
+
+語音倒數預設所有語言共用同一組錄音。若想針對特定語言提供對應發音，可在 `Sound_effects\Voice\` 底下建立以語系代碼命名的子資料夾，放入同名 wav 檔，例如：
+
+```
+Sound_effects\Voice\vi\Countdown_voice_03.wav
+Sound_effects\Voice\vi\Countdown_voice_05.wav
+Sound_effects\Voice\vi\Countdown_voice_10.wav
+```
+
+程式會依目前介面語言自動尋找對應資料夾，找不到時自動退回 `Sound_effects\` 底下的預設錄音，未提供的語言不受影響。
 
 ## 自訂圖示
 
@@ -212,7 +257,9 @@ Countdown_Timer.ico      # 自訂圖示（可選）
 
 ## 授權
 
-[GPL-3.0 License](LICENSE)
+[PolyForm Noncommercial License 1.0.0](Countdown_Timer_License.txt)
+
+本軟體僅授權非商業用途使用。
 
 ---
 
