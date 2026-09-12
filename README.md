@@ -19,8 +19,15 @@
 ![Deutsch](https://img.shields.io/badge/Locale-%F0%9F%87%A9%F0%9F%87%AA%20Deutsch-lightgrey?style=flat-square)
 ![Tiếng Việt](https://img.shields.io/badge/Locale-%F0%9F%87%BB%F0%9F%87%B3%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-DA251D?style=flat-square)
 ![ไทย](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%AD%20%E0%B9%84%E0%B8%97%E0%B8%A2-A51931?style=flat-square)
+![Bahasa Melayu](https://img.shields.io/badge/Locale-%F0%9F%87%B2%F0%9F%87%BE%20Bahasa%20Melayu-0032A0?style=flat-square)
+![Filipino](https://img.shields.io/badge/Locale-%F0%9F%87%B5%F0%9F%87%AD%20Filipino-0038A8?style=flat-square)
+![Italiano](https://img.shields.io/badge/Locale-%F0%9F%87%AE%F0%9F%87%B9%20Italiano-008C45?style=flat-square)
+![Türkçe](https://img.shields.io/badge/Locale-%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrk%C3%A7e-E30A17?style=flat-square)
+![Polski](https://img.shields.io/badge/Locale-%F0%9F%87%B5%F0%9F%87%B1%20Polski-DC143C?style=flat-square)
+![हिन्दी](https://img.shields.io/badge/Locale-%F0%9F%87%AE%F0%9F%87%B3%20%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-FF9933?style=flat-square)
+![Українська](https://img.shields.io/badge/Locale-%F0%9F%87%BA%F0%9F%87%A6%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0-0057B7?style=flat-square)
 
-Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行、彈性提醒、語音倒數與通知視窗。常駐系統匣，開箱即用，內建 13 種語言。
+Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行、彈性提醒、語音倒數與通知視窗。常駐系統匣，開箱即用，內建 20 種語言。
 
 ---
 
@@ -48,10 +55,14 @@ Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行
 
 將多個計時器編成一組，依序自動接續執行，適合「連續多階段」的計時情境（例如：休息 → 泡麵 → 蒸蛋 依序倒數）。
 
-- 群組成員依設定順序執行，可用上移／下移調整順序
+- 群組成員依設定順序執行，可用上移／下移調整順序，或用快捷鍵（Delete 移除、Enter 設定循環次數、Alt+↑／Alt+↓ 上移下移）操作
 - 每個成員可設定**循環次數**：同一個計時器要連續運行幾次才換下一個
 - 整個群組可設定**整輪重複次數**，或開啟無限重複
-- **支援巢狀群組**：群組成員本身也可以是另一個群組
+- **支援巢狀群組**：群組成員本身也可以是另一個群組——巢狀群組被包含進其他群組時，只算它自己成員跑一輪，不套用它自己的整輪重複次數（那個設定只在它被當成最外層、直接執行時才有意義），無限重複因此只會出現在最外層
+- **時長試算**：群組管理清單與編輯群組畫面都會即時顯示每個成員、每一輪、以及整個群組（含重複次數後）的預估時長，方便在設定前就知道整體會跑多久
+- 編輯群組時可直接對選取的成員按「編輯」，開啟該計時器的設定視窗、或該巢狀群組自己的編輯視窗，不用切到啟動視窗或群組管理清單另外找
+- 群組管理清單、編輯群組的成員清單都支援右鍵選單（涵蓋所有操作按鈕的功能）與欄位排序（點擊欄位標題排序，同一欄再點一次反轉方向）
+- 編輯群組時若有未儲存的變更，取消或關閉視窗前會先詢問確認，避免誤操作遺失修改
 - 群組管理視窗即時顯示各群組狀態（運行中 / 未運行 / 已結束）與成員數
 - 可對群組整體執行開始、停止、關閉
 
@@ -79,6 +90,8 @@ Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行
 ### 設定
 
 每個計時器有獨立設定，分為以下頁籤：
+
+底部按鈕列可**複製設定**／**貼上設定**：把目前畫面上的所有欄位（含視窗縮放比例）複製到剪貼簿，再貼到另一個計時器（或批次設定畫面），不用逐項手動調整成一樣的設定；每個顏色欄位旁的「選色」按鈕右側，也各自有獨立的複製／貼上，可以單獨把一種顏色套用到別的顏色欄位。設定視窗若有未儲存的變更，取消或關閉前會先詢問確認。
 
 **基本**
 - 時長（時 / 分 / 秒）
@@ -119,7 +132,7 @@ Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行
 
 ### 啟動視窗（LaunchForm）
 
-集中管理所有計時器設定檔，設定檔清單顯示名稱、隨程式啟動狀態、時長與最後修改時間，支援欄位排序。
+集中管理所有計時器設定檔，設定檔清單顯示名稱、隨程式啟動狀態、時長與最後修改時間，支援點擊欄位標題排序、右鍵選單，以及 Delete / Enter 快捷鍵。視窗重新取得焦點時（例如剛編輯完某個計時器切回來）會自動刷新清單內容，並保留原本的選取項目。
 
 操作分為以下頁籤：
 
@@ -189,11 +202,15 @@ Countdown_Timer.ico      # 自訂圖示（可選）
 
 ## 多語系支援
 
-內建 13 種語言：正體中文、简体中文、日本語、한국어、English、Español、Français、Русский、Português (Brasil)、Bahasa Indonesia、Deutsch、Tiếng Việt、ไทย。
+內建 20 種語言，語系選單依「東亞 → 東南亞 → 南亞／西亞 → 歐洲」分組、組內大致依使用人口排序：
+
+正體中文、简体中文、日本語、한국어、Bahasa Indonesia、Filipino、Tiếng Việt、ไทย、Bahasa Melayu、हिन्दी、Türkçe、English、Español、Français、Русский、Português (Brasil)、Deutsch、Italiano、Polski、Українська。
 
 優先使用設定值，若未設定，則根據系統語系自動偵測預設語言。可在系統匣選單的語系子選單中切換，重新啟動後生效。
 
 語言檔位於 `Language\` 目錄，每個語言一個 `.ini` 檔，支援自訂語言檔擴充——新增一個對應語系代碼的 `.ini` 檔即可自動出現在語系選單中，不需修改程式碼。
+
+介面字型會依語系自動調整：泰文（th）與印地文（hi）改用 Windows 內建的原生使用者介面字型（分別為 Leelawadee UI、Nirmala UI），避免疊字母音符號用中日韓字型顯示時過小難辨；其餘語言維持統一字型不變。
 
 ## 音效檔案
 
