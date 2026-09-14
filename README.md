@@ -76,8 +76,11 @@ Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行
 - 預設計時器設定
 - 自動排列計時器
 - 關閉所有計時器
-- 語系切換
+- 贊助 / 支持開發
+- 分享此 App
 - 檢查更新
+- 語系切換
+- 說明
 - 關於
 - 結束程式
 
@@ -86,6 +89,14 @@ Windows 桌面倒數計時器，支援多視窗同時運作、群組連續執行
 ### 檢查更新
 
 選單中的「檢查更新」會連線 GitHub 查詢最新 Release 版本並與目前版本比較，有新版本時會詢問是否前往下載頁面。程式啟動後也會延遲數秒自動靜默檢查一次，沒有新版本時不會打擾使用者。
+
+### 說明
+
+選單中的「說明」提供一份內建、離線可看的功能摘要（免連網），視窗底部另外附一個 Ko-fi 連結，可前往查看更完整的說明或教學影片。
+
+### 贊助 / 支持開發、分享此 App
+
+「贊助 / 支持開發」點擊後會開啟瀏覽器前往 Ko-fi 贊助頁面；「分享此 App」則會開啟一個小視窗，準備好一段包含 App 介紹與 GitHub 連結的文字，可一鍵複製後貼到任何聊天工具、社群或論壇分享，或直接點擊連結前往 GitHub 頁面。
 
 ### 設定
 
@@ -204,7 +215,19 @@ Countdown_Timer.ico      # 自訂圖示（可選）
 
 內建 20 種語言，語系選單依「東亞 → 東南亞 → 南亞／西亞 → 歐洲」分組、組內大致依使用人口排序：
 
-正體中文、简体中文、日本語、한국어、Bahasa Indonesia、Filipino、Tiếng Việt、ไทย、Bahasa Melayu、हिन्दी、Türkçe、English、Español、Français、Русский、Português (Brasil)、Deutsch、Italiano、Polski、Українська。
+| 語系代碼 | 語言 | 語系代碼 | 語言 |
+|---|---|---|---|
+| `zh` | 正體中文 | `hi` | हिन्दी |
+| `zh-cn` | 简体中文 | `tr` | Türkçe |
+| `ja` | 日本語 | `en` | English |
+| `ko` | 한국어 | `es` | Español |
+| `id` | Bahasa Indonesia | `fr` | Français |
+| `fil` | Filipino | `ru` | Русский |
+| `vi` | Tiếng Việt | `pt-br` | Português (Brasil) |
+| `th` | ไทย | `de` | Deutsch |
+| `ms` | Bahasa Melayu | `it` | Italiano |
+| | | `pl` | Polski |
+| | | `uk` | Українська |
 
 優先使用設定值，若未設定，則根據系統語系自動偵測預設語言。可在系統匣選單的語系子選單中切換，重新啟動後生效。
 
@@ -285,4 +308,5 @@ Sound_effects\Voice\vi\Countdown_voice_10.wav
 林彥丞  
 [GitHub](https://github.com/ArtLife-Software) ·
 [Facebook 社群](https://www.facebook.com/groups/vba.club) ·
+[Ko-fi](https://ko-fi.com/artlifesoftware) ·
 lin.yancheng@outlook.com
